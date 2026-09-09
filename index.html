@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Happy Birthday ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Background Hearts -->
+    <div class="hearts"></div>
+
+    <!-- Opening Screen -->
+    <section class="hero">
+
+        <p class="small-text">A surprise for my motki...</p>
+        <h1>Hey <span id="Bebu">Bebu</span> ❤️</h1>
+
+        <p class="subtitle">
+            Today is not just another day.
+            Meri Bebuuuu ka birthday hai🥰
+        </p>
+
+        <button onclick="startSurprise()">
+            Open Your Surprise 🎁
+        </button>
+
+    </section>
+
+
+    <!-- Birthday Section -->
+    <section id="birthday" class="hidden">
+
+        <div class="container">
+
+            <p class="small-text">10 • 09 • 2026</p>
+
+            <h2>Happy Birthday, My Love ❤️</h2>
+
+
+            <!-- Single Memory -->
+
+<h3>Bebu💕Chiku</h3>
+<br>
+<div class="single-photo">
+    <img src="rrr.png" alt="Our Memory">
+</div>
+
+
+<!-- Cassette Music Player -->
+
+<div class="music-section">
+
+    <p class="music-kicker">A SONG FOR you</p>
+    <h3>Play, My Love ♡</h3>
+
+    <div class="music-player">
+
+        <div class="player-top">
+            <span>♡ OUR MEMORY</span>
+            <span>♪ 01</span>
+        </div>
+
+        <div class="vinyl">
+
+            <div class="vinyl-grooves"></div>
+
+            <div class="vinyl-label">
+                <span>FOR</span>
+                <strong>YOU</strong>
+                <small>♡ BEBU ♡</small>
+            </div>
+
+            <div class="vinyl-hole"></div>
+
+        </div>
+
+        <div class="tone-arm">
+            <div class="tone-head"></div>
+        </div>
+
+        <div class="song-info">
+            <strong>Our Song</strong>
+            <span>Forever & Always</span>
+        </div>
+
+        <div class="progress-container">
+            <span id="currentTime">0:00</span>
+
+            <div class="progress-bar">
+                <div id="progress"></div>
+            </div>
+
+            <span id="duration">0:00</span>
+        </div>
+
+        <div class="player-controls">
+
+            <button class="control-btn" onclick="rewindSong()">
+                ↶
+            </button>
+
+            <button
+                class="play-btn"
+                id="playButton"
+                onclick="toggleMusic()">
+                ▶
+            </button>
+
+            <button class="control-btn" onclick="forwardSong()">
+                ↷
+            </button>
+
+        </div>
+
+    </div>
+
+    <audio id="song" src="yyy.mp3"></audio>
+
+</div>
+            <!-- Love Letter -->
+
+            <div class="letter-section">
+
+                <h3>A Letter For You 💌</h3>
+                <br>
+
+                <button onclick="openLetter()">
+                    My Letter 💌
+                </button>
+
+                <div id="letter" class="letter hidden">
+
+                    <p>meli stu,</p>
+
+                    <p>
+                        Meri cutu bebu🥰.
+Hamesha khush raho hasti raho. Tum meri life mein sirf ek relationship nahi ho, tum meri life ka woh hissa ban gayi ho jiske bina kuch missing sa lagta hai🥹 tumse baat karna meri adat nahi, meri oxygen ban chuki hai🫠 tumhari smile mujhe motivate karti hai aur tum sad ho jati muje andar se bhoot bura lagta kuch nahi kar pata fir😓.
+
+Kabhi kabhi hm ladte hainhai(ladaku viman), ek dusre se naraz hote hai, but at the end pyar hai isliye sath a jate tum breakup kar di thi🙂‍↕️ muje vo yad rahta par main ese nahi chodunga gadhi. I still choose you. Har baar tum hi chiye har zanam. ❤️ Main chahta hoon ki ye sirf ek saal ki story na ho; main tumhare saath bhoot sare saal bhoot sare months bhoot sare week bhoot sare days bhoot sare hr. bhoot sare min bhoot sare sec sab tumhare sath socha hai sath main banyenge sab main sab kar lunga tum sath ho to🫂 Main perfect nahi hoon but meri feelings, payar bilkul real hai. Thank you meri life mein aane ke liye, mujhe itna pyaar dene ke liye aur meri zindagi ko itna beautiful banane ke liye🥰.
+
+Happy Birthday meri jaan💗
+I love you🫶💍.
+                    </p>
+
+                    <p>
+                        Ham tumhra agla birthday sath celebrate karenge🥰
+                    </p>
+
+                    <p>Forever yours...</p>
+
+                </div>
+
+            </div>
+
+
+            <!-- Final Surprise -->
+
+            <div class="final">
+
+                <h2>One Last Thing...</h2>
+
+                <button onclick="finalSurprise()">
+                    Click Me ❤️
+                </button>
+
+                <h1 id="finalMessage"></h1>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
