@@ -32,7 +32,7 @@ function finalSurprise() {
 
     let message = document.getElementById("finalMessage");
 
-    message.innerHTML = "I LOVE YOU ❤️";
+    message.innerHTML = "I LOVE YOU 💗";
 
     createHearts();
 
@@ -48,7 +48,7 @@ function createHearts() {
 
     heart.classList.add("heart");
 
-    heart.innerHTML = "❤️";
+    heart.innerHTML = "💗";
 
     heart.style.left =
         Math.random() * 100 + "vw";
